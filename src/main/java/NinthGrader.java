@@ -7,7 +7,6 @@ public class NinthGrader extends Student {
         super();
     }
 
-    @Override
     public void doSomething() {
         System.out.println(this.getFirstName() + " has no homework.");
     }
